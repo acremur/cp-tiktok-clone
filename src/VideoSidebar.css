@@ -1,0 +1,27 @@
+.videoSidebar {
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    color: white;
+}
+
+.videoSidebar__button {
+    padding: 20px;
+    text-align: center;
+} 
+
+.favIcon {
+    cursor: pointer;
+}
+
+@media (max-width: 414px) {
+    .videoSidebar {
+        top: 40%;
+    }
+    .MuiSvgIcon-root {
+        font-size: 140% !important;
+    }
+    .videoSidebar__button {
+        padding: 10px;
+    } 
+}
